@@ -1,0 +1,12 @@
+.card{
+    border-radius: 5px;
+    overflow: hidden;
+    background: #f0f3fa;
+}
+
+.card:before {
+    content: "";
+    height: 4px;
+    display: block;
+    background: red;
+}
