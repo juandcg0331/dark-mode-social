@@ -1,0 +1,62 @@
+header{
+    border: 1px solid red;
+    background: #f8f9fe;
+}
+
+.card{
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f0f3fa;
+    text-align: center;
+}
+
+.card:before {
+    content: "";
+    height: 4px;
+    display: block;
+    background:var(--facebook);
+}
+
+.card-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6f717e;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.card-title img {
+    margin-right: 5px;
+}
+
+.card-followers{
+  
+}
+
+.card-followers-number{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.card-followers-title{
+    display: block;
+    text-transform: uppercase;
+    color: var(--gray);
+    letter-spacing: 5px;
+    font-size: .75em;
+}
+
+.card-today{
+    margin-top: 20px;
+    color: var(--lime-green);
+    font-size: .7em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-today img {
+    margin-right: 5px;
+}

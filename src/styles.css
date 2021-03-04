@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #1d2029;
+}
+
+:root{
+--lime-green: hsl(163, 72%, 41%);
+--bright-red: hsl(356, 69%, 56%);
+--facebook:#168ef4;
+--twitter: hsl(203, 89%, 53%);
+--instagram-1: hsl(37, 97%, 70%);
+--instagram-2: hsl(329, 70%, 58%);
+--youTube: hsl(348, 97%, 39%);
+--gray: #9b9ea7;
+}
+
+.wrapper {
+    padding: 0 40px;
+}
+
+.grid{
+   display: grid; 
+   grid-row-gap: 25px;
+}
