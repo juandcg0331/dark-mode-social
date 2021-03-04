@@ -1,6 +1,26 @@
 header{
-    border: 1px solid red;
     background: #f8f9fe;
+    padding-bottom: 100px;
+    border-radius: 0 0 20px 20px;
+    padding-top: 2em;
+}
+
+.top-cards{
+    margin-top: -50px;
+    margin-bottom: 3em;
+}
+
+h1 {
+  margin: 0;  
+  font-size: 1.7em;
+}
+
+.header-total{
+    color: var(--gray);
+    margin: .5em 0;
+    font-weight: 600;
+    border-bottom: 2px solid var(--gray);
+    padding-bottom: 1.5em;
 }
 
 .card{
@@ -8,15 +28,35 @@ header{
     overflow: hidden;
     background: #f0f3fa;
     text-align: center;
+    padding: 1.7em 0;
+    position: relative;
 }
 
 .card:before {
     content: "";
     height: 4px;
     display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.card.facebook::before{
     background:var(--facebook);
 }
 
+.card.twitter::before{
+    background:var(--twitter);
+}
+
+.card.instagram::before{
+    background-image: linear-gradient(to right, var(--instagram-1) 0%, var(--instagram-2) 100%);
+}
+
+.card.youtube::before{
+    background:var(--youTube);
+}
 .card-title{
     display: flex;
     align-items: center;
