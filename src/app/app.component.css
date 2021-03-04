@@ -1,10 +1,15 @@
 header{
-    background: #f8f9fe;
+    background: var(--lightGray);
     padding-bottom: 100px;
     border-radius: 0 0 20px 20px;
     padding-top: 2em;
 }
 
+.dark-mode {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+}
 .top-cards{
     margin-top: -50px;
     margin-bottom: 3em;
@@ -19,14 +24,14 @@ h1 {
     color: var(--gray);
     margin: .5em 0;
     font-weight: 600;
-    border-bottom: 2px solid var(--gray);
+    border-bottom: 1px solid var(--gray);
     padding-bottom: 1.5em;
 }
 
 .card{
     border-radius: 8px;
     overflow: hidden;
-    background: #f0f3fa;
+    background: var(--cardGray);
     text-align: center;
     padding: 1.7em 0;
     position: relative;
@@ -61,7 +66,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #6f717e;
+    color: var(--cardTitle);
     font-size: .9em;
     font-weight: bold;
 }
@@ -82,7 +87,7 @@ h1 {
 .card-followers-title{
     display: block;
     text-transform: uppercase;
-    color: var(--gray);
+    color: var(--cardTitle);
     letter-spacing: 5px;
     font-size: .75em;
 }
