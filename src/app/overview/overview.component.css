@@ -10,7 +10,7 @@ h2 {
     display: grid ;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 1em;
-    background: #f0f3fa;
+    background: var(--cardGray);
     border-radius: 8px;
     padding: 1.7em;
 }
@@ -19,7 +19,7 @@ h2 {
     margin: 0;
 }
 .card-small-views {
-    color: var(--gray);
+    color: var(--cardTitle);
     font-weight: bold;
     font-size: .9em;
 }
